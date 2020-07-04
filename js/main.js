@@ -10,7 +10,15 @@
  const scissors_div = document.getElementById("s");
  const restart = document.getElementById("restart");
 
-
+ function retozero(){
+  restart.addEventListener('click',()=>{
+    userScore =0;
+    computerScore =0;
+    userScore_span.textContent = userScore;
+    computerScore_span.textContent  = computerScore;  
+  });
+}
+retozero();
 
  function getComputerChoice(){
    const choices = ['r','p','s'];
