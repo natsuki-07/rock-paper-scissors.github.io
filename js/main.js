@@ -16,6 +16,7 @@
     computerScore =0;
     userScore_span.textContent = userScore;
     computerScore_span.textContent  = computerScore;  
+    result_p.textContent = "Let's fight again!";
   });
 }
 retozero();
